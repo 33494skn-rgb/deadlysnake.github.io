@@ -1,0 +1,89 @@
+body {
+    font-family: 'Sarabun', Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 10;
+}
+
+.card {
+    background: #ffffff;
+    width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.badge {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.scientific-name {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: smaller;
+    color: #555;
+}
+
+p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 18px;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 5px;
+}
